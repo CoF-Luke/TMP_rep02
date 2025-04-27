@@ -1,12 +1,14 @@
-#include<iostream>
-#include<string>
+#include <iostream>
+#include <string>
 
-int main()
+int
+main()
 {
-    std::string name; // Создание переменной name
+  std::string name; // Create var name
 
-    std::cout << "Write user name: " << std::endl; // Запрос name
-    std::cin >> name; // name = "input"
+  std::cout << "Write user name: " << std::endl; // Request name
+  std::cin >> name;                              // name = "input"
 
-    std::cout << "Hello world from " << name << std::endl; // Печать приветствия
+  std::cout << "Hello world from " << name
+            << std::endl; // Printing greeting card
 }
