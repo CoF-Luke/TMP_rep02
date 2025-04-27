@@ -3,10 +3,10 @@
 
 int main()
 {
-    std::string name;
+    std::string name; // Create var name
 
-    std::cout << "Write user name: " << std::endl;
-    std::cin >> name;
+    std::cout << "Write user name: " << std::endl; // Request name
+    std::cin >> name; // name = "input"
 
-    std::cout << "Hello world from " << name << std::endl;
+    std::cout << "Hello world from " << name << std::endl; // Printing greeting card
 }
